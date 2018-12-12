@@ -1,0 +1,160 @@
+#homeCardCont {
+    /*padding-top: 1.5rem;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+header {
+    height: 40vh;
+}
+
+form {
+    padding-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+::placeholder {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    background-color: #CFCFCF;
+    border-color: #CFCFCF;
+    box-shadow: 1px 1px 10px #CFCFCF;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover {
+    background-color: #006666;
+    border-color: #006666;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-columns {
+    column-count: 3;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.home-image {
+    width: 20%;
+}
+
+.fa-pencil-alt,
+.fa-html5,
+.fa-sass {
+    padding-right: 10px;
+    font-size: 10rem;
+    color: #006666;
+    float: left;
+}
+
+.fa-images,
+.fa-css3-alt,
+.fa-js-square {
+    padding-right: 10px;
+    font-size: 10rem;
+    color: #006666;
+    float: right;
+}
+
+.form-info{
+    border-bottom: 2px solid #006666;
+    padding-bottom: 15px;
+}
+
+.container-fluid {
+    margin-bottom: 2rem;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    height: 20vh;
+    transform: rotate(90deg);
+    float: left;
+    margin-top: 10vh;
+    box-shadow: 5px 5px 20px black;
+}
+
+#image-right {
+    float: right;
+    padding-right: 0rem;
+}
+
+.container {
+    padding-top: 6.5rem;
+}
+
+h1 {
+    margin-left: 1.5rem;
+    font-size: 5.063em;
+    text-shadow: 2px 2px 5px #006666;
+}
+
+h3{
+    font-size: 2.25em;
+}
+
+h4 {
+    border-bottom: 2px solid #006666;
+    padding-bottom: 12px;
+    font-size: 1.5em;
+}
+
+/************************
+      Media Queries
+*************************/
+
+@media (max-width: 599px) {
+     .card-columns {
+        column-count: 1;
+    }
+    h1{
+        font-size: 2.25em;
+    }
+    .container{
+        padding-top: 7.5rem;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 600px) and (max-width:999px){
+    .card-columns {
+        column-count: 2;
+    }
+    h1{
+        font-size: 3.375em;
+    }
+    .container{
+        padding-top: 7.5rem;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006666;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container-fluid" style="background-color: #CFCFCF;border-bottom: 3px solid #006666;">
+        <img class="avatar-img" src="img/avatar.jpg" alt="avatar">
+        <div class="container">
+            <h1>
+                Portfolio
+            </h1>
+        </div>
+        <!--<div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>-->
+    </header>
+
+    <div class="container-fluid" id="homeCardCont">
+        <div class="card-columns">
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/fonts_layout.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Fonts, Colours, Layout Webpage</h4>
+                    <p class="card-text">This webpage showcases my abilities to use colours, fonts and layout the webpage proportionally.</p>
+                    <a href="https://mad9013.github.io/fonts-colors-layout-steve-scot0359/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/responsive.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Responsive Webpage</h4>
+                    <p class="card-text">This webpage showcases my abilities to make a fully responsive website for different devices.</p>
+                    <a href="https://mad9013.github.io/responsive-website-project1-scot0359/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/color-webpage.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Colour Webpage</h4>
+                    <p class="card-text">This webpage showcases my abilities to use link tags and to design a nice looking webpage with a complementary colour scheme.</p>
+                    <a href="https://scot0359.github.io/colorwebpage/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/grr.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">GrrBNB Webpage</h4>
+                    <p class="card-text">This webpage shows my abilities to write a fully responsive form. the form layout changes for 3 different break points</p>
+                    <a href="https://scot0359.github.io/grrbnb/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/api.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">API Web App</h4>
+                    <p class="card-text">This is a web app i designed to use an API key from TMDb and use their data to produce a movie recommendations app. You can type in any movie and it will showcase 20 movie recommendations based on what was searched. You can also click on a movie card then it will showcase recommendations based on what movie you clicked.</p>
+                    <a href="https://scot0359.github.io/API-Project/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #A9A9A9;">
+                <img class="card-img-top" src="img/lotto.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Lotto Number Generator</h4>
+                    <p class="card-text">This web app is used to generate lotto numbers. You select the number of digits from 1-10 then a range of numbers from 1-90 and it will randomly generate nubmers based on the paramters that were chosen. </p>
+                    <a href="https://scot0359.github.io/ajax_lotto/" target="_blank" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <title>Bootstrap Website</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006666;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="container-fluid" style="background-color: #CFCFCF; border-bottom: 3px solid #006666;">
+        <img class="avatar-img" src="img/avatar.jpg" alt="avatar">
+        <div class="container">
+            <h1>
+                Conor Scott
+            </h1>
+        </div>
+    </header>
+    <div class="container-fluid" id="homeCardCont">
+        <div class="card w-100" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fas fa-pencil-alt"></span>Illustrator</h3>
+                <p class="card-text">In illustator I am able to use the pen logo to create vector graphics. I'm able to use put text on a path. I'm able to use the shape tool and remove points to make other shapes; I recreated the Nike logo using every different shape tool. I'm able to take a shape and export it and animate it using svg animations.</p>
+            </div>
+        </div>
+        <div class="card w-100" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fas fa-images"></span>Photoshop</h3>
+                <p class="card-text">In photoshop I'm able to use the masking tool to cut our parts of an image and turn it into a sihlouette. I can use the stamp tool as well as the spot healing tool to fix up images that are destroyed or have blemishes. I'm able to take 2 images and blend them together to create on compoisition.</p>
+
+            </div>
+        </div>
+
+        <div class="card w-100" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fab fa-html5"></span>HTML5</h3>
+                <p class="card-text">With HTMl5 I can code websites. I am able to structure an html file so that I can easily use css to change the layout and styling. I know how to properly use class and ID attributes. I can take fonts from googlefonts or other font sites and imbed them into my html file. I know how to put css files and javascript files into an html file.</p>
+            </div>
+        </div>
+        <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fab fa-css3-alt"></span>CSS3</h3>
+                <p class="card-text">With CSS I'm able to use cmmon attributes to layout and style my websites. I know how to use multiple class and ID attributes. I'm able to use keyframes to specify animations. I can use flex box and grid proficiently to layout my html file. I can use media queries to change the layout proportionally depending on the device used to view the website.</p>
+            </div>
+        </div>
+        <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fab fa-sass"></span>SASS</h3>
+                <p class="card-text">With SASS I learned to make a css file more efficient and allowing the page to load faster. I am able to nest css rules within another to avoid the repititon of parent selectors. I'm able to use variables for fonts, colours and other attributes that are used commonly throughout a css file. I know how to use mixins to group css attributes that are reused throughout a webpage.</p>
+            </div>
+        </div>
+        <div class="card" style="border: 2px solid #006666; border-radius: 5px;box-shadow: 2px 2px 20px #CFCFCF;">
+            <div class="card-body">
+                <h3 class="card-title"><span class="fab fa-js-square"></span>Javascript</h3>
+                <p class="card-text">In javascript I can write simple functions. I am able to take data from another source to use that in my javascript applications. I'm able to use arrays to store multiple values. I know how to inspect on my webpages to see if my code is working in the console.</p>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
